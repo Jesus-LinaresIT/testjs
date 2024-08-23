@@ -13,7 +13,7 @@ const getData = async () => {
 
 getData();
 
-async function postData() {
+const postData = async () => {
    try {
      const response = await axios.post(API_URL, {
        title: 'foo',
